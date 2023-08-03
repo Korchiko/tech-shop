@@ -1,0 +1,35 @@
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: -100%;
+  display: none;
+  box-shadow: 0 15px 15px 25px rgba(0, 0, 0, 0.1);
+  max-height: 500px;
+  width: 250px;
+  overflow-y: scroll;
+  border-radius: 8px;
+  padding-block: 20px;
+}
+
+.isOpen {
+  display: block;
+}
+
+.dropdownContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  gap: 5px;
+}
+
+.dropdownItem {
+  max-width: 200px;
+  max-height: 400px;
+  width: 100%;
+  height: 100%;
+}
